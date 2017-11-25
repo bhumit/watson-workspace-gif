@@ -1,0 +1,37 @@
+{
+  "name": "watsonworkspace-gif",
+  "version": "1.0.1",
+  "description": "An IBM Watson Workspace Gif app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jasmine",
+    "dev": "concurrently \"node ngrok.js\" \"nodemon ./index.js\""
+  },
+  "keywords": [
+    "watsonworkspace",
+    "ibm",
+    "cognitive"
+  ],
+  "author": "bhumitpatel@ie.ibm.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "ngrok": "^2.2.23",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "download-file": "^0.1.5",
+    "file-schedule-delete": "0.0.2",
+    "fs-extra": "^4.0.2",
+    "giphy-api": "^1.2.7",
+    "lodash": "^4.17.4",
+    "node-schedule": "^1.2.5",
+    "path": "^0.12.7",
+    "random-number": "0.0.9",
+    "watsonworkspace-bot": "^1.0.2",
+    "watsonworkspace-sdk": "^1.0.5",
+    "winston": "^2.4.0"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+public/
+.settings
+.project
+manifest.yml
+*.log
+.npmrc
