@@ -11,7 +11,7 @@ This app allows users to post gifs in space. Just type `@gif` plus a word or phr
 
 
 ## Deploy to IBM Cloud
-[![Deploy to IBM Cloud](https://metrics-tracker.mybluemix.net/stats/workspace/button.svg)](https://bluemix.net/deploy?repository=https://github.com/bhumitpatel/watsonworkspace-gif.git)
+[![Deploy to IBM Cloud](https://metrics-tracker.mybluemix.net/stats/workspace/button.svg)](https://bluemix.net/deploy?repository=https://github.com/bhumit/watson-workspace-gif.git)
 
 ## Quick Start
 
