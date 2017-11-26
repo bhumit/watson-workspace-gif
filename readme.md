@@ -3,13 +3,6 @@ This app allows users to post gifs in space. Just type `@gif` plus a word or phr
 
 ![gifapp](https://user-images.githubusercontent.com/1700450/33235000-e7b4635e-d227-11e7-8555-f6647078c96f.gif)
 
-
-**IMPORTANT UPDATES**
-
-* The latest developer URL is [https://developer.watsonwork.ibm.com/apps](https://developer.watsonwork.ibm.com/apps).
-* The SDK now mounts your bot on the path `/APP_ID`. For example, `https://cdf9d82f.ngrok.io/a7cfbdac-cdab-3d6f-ae13-0654b6b8e880`. The video shows the older mount path as `/`.
-
-
 ## Deploy to IBM Cloud
 [![Deploy to IBM Cloud](https://metrics-tracker.mybluemix.net/stats/workspace/button.svg)](https://bluemix.net/deploy?repository=https://github.com/bhumit/watson-workspace-gif.git)
 
