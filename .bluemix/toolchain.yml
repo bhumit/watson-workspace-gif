@@ -14,7 +14,7 @@ repo:
   parameters:
     repo_url: "{{#zip_url}}{{zip_url}}{{/zip_url}}{{^zip_url}}{{repository}}{{/zip_url}}"
     repo_name: "{{toolchain.name}}"
-    type: link
+    type: clone
     has_issues: true
     enable_traceability: true
 
@@ -46,7 +46,7 @@ deploy:
     $ref: deploy.json
   service-category: pipeline
   parameters:
-    app-name: watsonworkspacegif
+    app-name: 'watsonworkspacegif-{{timestamp}}'
     dev-space: "{{space}}"
     dev-organization: "{{organization}}"
     dev-region: "{{region}}"
