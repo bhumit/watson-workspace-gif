@@ -10,7 +10,7 @@ toolchain:
 
 # Github repos
 repo:
-  service_id: hostedgit
+  service_id: githubpublic
   parameters:
     repo_url: "{{#zip_url}}{{zip_url}}{{/zip_url}}{{^zip_url}}{{repository}}{{/zip_url}}"
     repo_name: "{{toolchain.name}}"
