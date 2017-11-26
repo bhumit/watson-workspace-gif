@@ -51,7 +51,7 @@ Once you've clicked the button, you'll get prompted with the following screens:
 
   This dashboard shows the status of the app, the URL to access the app and provides the ability to interact with the app ( set environment variables, view logs, etc).
 
-  **Take note of the app name at the top.** The app name is used to contruct the URL for the running app: `https://<appname>.mybluemix.net`.
+  **Take note of the app name at the top.** The app name is used to construct the URL for the running app: `https://<appname>.mybluemix.net`.
 
   ![image](https://user-images.githubusercontent.com/1700450/33242414-a16bab82-d2cc-11e7-82c8-a7a6807722b8.png)
 
@@ -80,7 +80,7 @@ To register an app, navigate to the Watson Work Services developer experience: h
 
 4. Once registered, you will be presented with the `id` and `secret` for the app.
 
-  **Copy both the id and secret for later use.**
+    **Copy both the id and secret for later use.**
   
   ![SuccessDialog](https://user-images.githubusercontent.com/1700450/33242243-91cd1ab0-d2c9-11e7-95ba-3b8060bf397c.png)
 
