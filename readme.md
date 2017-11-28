@@ -1,5 +1,10 @@
 # IBM Watson Workspace Gif App
-This app allows users to post gifs in space. Just type `@gif` plus a word or phrase (such as `@gif awesome`) and Gif app will post a random GIF that matches. The Gif app also supports slash commands. It also parses giphy.com links embedded in a message. The uses [IBM Watson Workspace Bot Framework]() and [IBM Watson Workspace SDK](https://github.com/van-ibm/watsonworkspace-sdk).
+This app allows users to post gifs in space. Just type `@gif` plus a word or phrase (such as `@gif awesome`) and Gif app will post a random GIF that matches. The Gif app also supports slash commands. It also parses giphy.com links embedded in a message. The uses [IBM Watson Workspace Bot Framework](https://github.com/van-ibm/watsonworkspace-bot) and [IBM Watson Workspace SDK](https://github.com/van-ibm/watsonworkspace-sdk).
+
+## Try it out
+
+[![AddAppToSpaceShareButton](https://workspace.ibm.com/images/add_to_watson_workspace_button.svg)](https://workspace.ibm.com/enableApp?shareToken=202d0147-53a1-44b3-8900-075a325f6eaa)
+
 
 ## Quick Start with IBM Cloud
 Let's get started! The steps below will outline the process from getting the app running within IBM Cloud to enable the app to post within a space based on the keyword trigger or slash commands.
@@ -19,6 +24,18 @@ Once you've clicked the button, you'll get prompted with the following screens:
 1. Define your `App name`, `Region`, `Organization` and `Space`.
 
   Most of the time you can keep the default values, but if you have multiple accounts/organizations/spaces in IBM Cloud, please make note of the values here to make sure the app is deployed where you'd like it to be.
+
+**Note: If you haven't previously authenticated github.com with IBM Cloud, do the following:**
+
+  ![image](https://user-images.githubusercontent.com/1700450/33339592-92a1e71e-d471-11e7-80be-2f9b374f0c26.png)
+
+  Click on **Authorize**. This will redirect you to github.com OAuth authentication.
+
+  ![image](https://user-images.githubusercontent.com/1700450/33339601-9aee53b2-d471-11e7-9836-cb77c6aaac4f.png)
+
+  Click on **Authorize IBM-Bluemix** to continue. This will complete you authorization with Github and allow IBM DevOps toolchain access to your Github account. You can later revoke this access, if needed.
+
+
 
 ![configure pipeline](https://user-images.githubusercontent.com/1700450/33242359-98f9310a-d2cb-11e7-8769-47d2f7a107fd.png)
 
@@ -87,7 +104,6 @@ To register an app, navigate to the Watson Work Services developer experience: h
 5. After copying the id and secret, you will be sent to the App Dashboard for the newly registered Watson Work Services app.
 
   ![AppDashboard](https://user-images.githubusercontent.com/1700450/33243708-1b2e2538-d2e3-11e7-8d55-5f4d229f5802.png)
-
 
   This dashboard contains all of the information for your app, as well configuration options for listening to events, enabling your app to run as a user, and much more!
 
